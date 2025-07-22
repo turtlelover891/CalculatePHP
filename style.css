@@ -1,0 +1,183 @@
+body {
+	background-color: #222222;
+	border-color: #ffffff;
+	border-width: 10px;
+	margin: 0;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+header {
+	background-color: #443a20;
+	display: flex;
+	justify-content: space-evenly;
+	min-width: 600px;
+	margin: 10px;
+	padding: 10px;
+	border: solid;
+	border-color: color-mix(in srgb, #443a20, #222222);
+	color: #009090;
+}
+
+header section {
+	background-color: #443a20;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border: solid;
+	border-width: 3px;
+	border-color: color-mix(in srgb, #443a20, #222222);
+	min-width: fit-content;
+	width: 100%;
+	padding: 10px;
+	margin: 10px;
+}
+
+header a {
+	margin: auto;
+}
+
+nav {
+	background-color: #303030;
+	text-align: center;
+	border: solid;
+	border-color: #444444;
+	padding: 10px;
+	margin: 5px 20px;
+	min-width: 360px;
+}
+
+li {
+	color: #aaa6a2;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1em;
+	background-color: #aaaaaa;
+	color: #000000;
+	border: solid;
+	border-width: 2px;
+	border-color: #777777;
+	padding: 2px 5px;
+	margin: 10px;
+}
+
+img {
+	width: 30%;
+	margin: auto 10px;
+	color: #aaa6a2;
+}
+
+#references {
+	font-size: 1.25em;
+	width: 97.5vw;
+}
+
+h2 {
+	color: #aaaaaa;
+	margin: 10px 30% 5px;
+	text-align: center;
+	border-bottom: solid;
+	border-width: 2px;
+	font-family: Arial, serif;
+	font-weight: 900;
+}
+
+h3 {
+	color: #3ba3a3;
+}
+
+p {
+	margin: 10px 20px .5em 15px;
+	font-size: 1.25em;
+	color: #aaa6a2;
+}
+
+footer {
+	flex: 1;
+	background-color: #1b1b1b;
+	padding: 50px 50px;
+	border-top: solid;
+	border-color: color-mix(in srgb, #1b1b1b, #222222);
+	border-width: 3px;
+	font-size: 1em;
+	color: #aaaaaa;
+	margin: 0;
+}
+table{
+	color: #aaaaaa;
+	font-size: 1.5em;
+	border-spacing: 0;
+	border: solid;
+	margin: 10px 25px;
+	border-color: #aaaaaa;
+}
+
+th{
+	border-bottom: solid;
+	border: solid;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 1px;
+	padding: 4px;
+	border-color: #888888;
+}
+
+td {
+	text-align: center;
+	border: solid;
+	border-width: 0px 2px 1px 2px;
+	padding: 4px;
+	margin: 0;
+	border-color: #666666;
+}
+
+.center{
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.radio {
+	padding-right: 42%;
+	color: #aaaaaa;
+}
+
+@media only screen and (max-width: 768px) {
+	nav a {
+		font-size: 1.5em;
+	}
+	section {
+		display: inline;
+		text-align: center;
+	}
+	header section {
+		border-radius: 10px;
+	}
+	img {
+		width: 50%;
+		margin: 10px auto;
+		min-width: 250px;
+	}
+	article {
+		border-radius: 16px;
+		text-align: left;
+	}
+	#references {
+		width: 90vw;
+	}
+	header {
+		border-radius: 16px;
+	}
+	nav {
+		border-radius: 8px;
+		border-width: 4px;
+	}
+}
